@@ -11,10 +11,8 @@ msToHours = 3600000
 def getDataFrame():
     # Load the provided JSON files
     files = [
-        "./data_files/StreamingHistory0.json",
-        "./data_files/StreamingHistory1.json",
-        "./data_files/StreamingHistory2.json",
-        "./data_files/StreamingHistory3.json"
+        "./data_files/StreamingHistory_music_0.json",
+        "./data_files/StreamingHistory_music_1.json",
     ]
 
     data = []

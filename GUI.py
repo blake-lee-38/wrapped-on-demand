@@ -36,7 +36,7 @@ class WODGUI:
         dayLabel.pack(fill="x")
         self.drawPlot(listeningByDay, "Day", "Hours")
 
-        monthLabel = tk.Label(self.frame, text="Your Listening By Day", bg="#535353", foreground="#1db954", font=("@Yu Gothic Medium", 24))
+        monthLabel = tk.Label(self.frame, text="Your Listening By Month", bg="#535353", foreground="#1db954", font=("@Yu Gothic Medium", 24))
         monthLabel.pack(fill="x")
         self.drawPlot(listeningByMonth, "Month", "Hours")
 
